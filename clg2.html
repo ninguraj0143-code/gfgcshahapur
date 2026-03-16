@@ -1,0 +1,100 @@
+<style>
+    /* Basic Reset */
+* { margin: 0; padding: 0; box-sizing: border-box; font-family: 'Segoe UI', sans-serif; }
+
+/* Navigation Bar */
+.navbar {
+    background-color: #2c3e50;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 5%;
+    align-items: center;
+}
+
+.nav-links { display: flex; list-style: none; }
+.nav-links li { margin-left: 20px; position: relative; }
+.nav-links a { color: white; text-decoration: none; font-weight: 500; }
+
+/* Dropdown Menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: white;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.1);
+    list-style: none;
+    top: 100%;
+}
+
+.dropdown-menu li a { color: #333; padding: 10px 20px; display: block; }
+.dropdown:hover .dropdown-menu { display: block; }
+
+/* Department Page Layout */
+.dept-container { padding: 50px 10%; }
+.dept-header { text-align: center; margin-bottom: 40px; border-bottom: 2px solid #eee; padding-bottom: 20px; }
+.info-card { background: #f9f9f9; padding: 20px; border-radius: 8px; margin-bottom: 20px; }
+</style>
+
+
+<main class="dept-container">
+    <header class="dept-header">
+        <marquee><h1>Government First Grade College Shahapur</h1></marquee>
+        <p>Shahapur Dist Yadgir 585-223</p>
+    </header>
+    <nav class="navbar">
+    <div class="logo">City College</div>
+    <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li class="dropdown">
+            <a href="#">Departments</a>
+            <ul class="dropdown-menu">
+                <li><a href="file:///C:/Users/Administrator/Desktop/cs.html">Computer Science</a></li>
+                <li><a href="file:///C:/Users/Administrator/Downloads/CheDP.html">Physics</a></li>
+                <li><a href="math.html">Mathematics</a></li>
+                <li><a href="chemistry.html">Chemistry</a></li>
+            </ul>
+        </li>
+        <li><a href="file:///C:/Users/Administrator/Desktop/Contact.html">Contact</a></li>
+    </ul>
+</nav>
+
+    <section class="dept-content">
+        <div class="info-card">
+            <h2>About the College </h2>
+            <p>Government First Grade College, Shahapur, established in 1983 in Yadgir, Karnataka, is a premier public institution affiliated with Raichur University (formerly Gulbarga University). Accredited with a 'B' grade by NAAC, it offers diverse undergraduate (BA, B.Sc, B.Com, BCA) and postgraduate (M.A., M.Sc.) programs on a spacious 88.17-acre campus.</p>
+        </div>
+        
+        <div class="info-card">
+            <h2>Key Background</h2>
+            <ul>
+<li><strong>Establishment:</strong> The college was founded in 1983 to provide accessible higher education in the Shahapur region.</li>
+<li><strong>Location: </strong>Situated in Shahapur, Yadgir district, Karnataka, 585223.</li>
+<li><strong>Campus & Infrastructure:</strong> The campus spans 88.17 acres. It includes well-equipped laboratories, a library with digital resources, and computer centers.</li>
+<li><strong>Academic Programs:</strong> The college offers undergraduate (UG) and postgraduate (PG) courses in Arts, Commerce, and Science streams.</li>
+<li><strong>Student Strength:</strong> The institution serves a large student body, with reports indicating over 2,100 students.</li>
+<li><strong>Key Focus:</strong> The institution focuses on holistic development, incorporating cultural, sports, and social activities alongside academics.</li> 
+            </ul>
+        </div>
+    </section>
+</main>
+<main class="dept-container">
+    <header class="dept-header">
+        <h1>Department of Computer Science</h1>
+        <p>Innovating the future through code and algorithms.</p>
+    </header>
+
+    <section class="dept-content">
+        <div class="info-card">
+            <h2>About the Department</h2>
+            <p>Our CS department focuses on Software Engineering, AI, and Data Structures.</p>
+        </div>
+        
+        <div class="info-card">
+            <h2>Faculty</h2>
+            <ul>
+                <li>Dr. Aruna K. - HOD</li>
+                <li>Prof. Ramesh M. - Assistant Professor</li>
+            </ul>
+        </div>
+    </section>
+</main>
