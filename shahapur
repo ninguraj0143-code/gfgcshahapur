@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gfgcshahapur</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<link rel="stylesheet" type="text/css" href="clg.css">
+<body>
+
+    <header class="navbar">
+        <div class="logo">CITY <span>COLLEGE</span></div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#departments">Departments</a></li>
+                <li><a href="#">Admissions</a></li>
+                <li><a href="#">Faculty</a></li>
+                <li><a href="file:///C:/Users/admin/Desktop/clg.web/contact%20us.html?" class="btn-contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>Government First Grade College </h1>
+            <h3>Shahapur Dist Yadgir - 585-223</h3>
+            <p>Discover a campus where innovation meets tradition. Applications for All 2026 are now open.</p>
+            <div class="hero-btns">
+            </div>
+        </div>
+    </section>
+            <div class="clg-img"><img src="C:\Users\admin\Desktop\clg.web\icons\clg.pp.jpeg" alt="width :100px"></div>
+
+
+<section class="about-section">
+    <div class="container">
+        <div class="about-content">
+            
+            <div class="about-text">
+                <h2>About Our Institution</h2>
+                <p class="subtitle">Empowering Minds Since 1983</p>
+                <p>
+                    Our college is dedicated to providing a world-class education that 
+                    combines academic rigor with practical exposure. Located in the heart 
+                    of the city, our campus offers state-of-the-art laboratories, a 
+                    vast digital library, and a vibrant student life.
+                </p>
+                <ul class="stats">
+                    <li><strong>KEY FEATURES</strong> Accredited Courses</li>
+                    <li><strong>200+</strong> Expert Faculty</li>
+                    <li><strong>95%</strong> Placement Rate</li>
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Principal</title>
+    <link rel="stylesheet" href="principal-style.css">
+</head>
+<body>
+
+    <section class="principal-section">
+        <div class="principal-container">
+            <div class="principal-img-area">
+                <img src="https://via.placeholder.com/300x400" alt="College Principal">
+                <h3>SIDDAPPA DIGGI</h3>
+                <p class="qualification">M.A., Ph.D. (Gulbarga  University)</p>
+            </div>
+
+            <div class="principal-message">
+                <h2>Message from the Principal</h2>
+                <div class="underline"></div>
+                <p>
+                    "Welcome to our prestigious institution. For over three decades, we have been 
+                    committed to nurturing young minds and preparing them for the challenges of 
+                    a globalized world. Education here is not just about academic excellence, 
+                    but about character building and holistic development."
+                </p>
+                <p>
+                    Our faculty works tirelessly to ensure that every student discovers their 
+                    unique potential. We believe in an environment where curiosity is encouraged 
+                    and innovation is celebrated. I invite you to be a part of our journey 
+                    toward excellence and leadership.
+                </p>
+                <p class="signature">Best Regards,<br><strong>SIDDAPPA DIGGI</strong></p>
+            </div>
+        </div>
+    </section>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+    <section id="departments" class="departments">
+        <div class="container">
+            <h2 class="section-title">Academic Departments</h2>
+            <p class="section-subtitle">Choose from our diverse range of specialized faculties.</p>
+            
+            <div class="dept-grid">
+                <div class="dept-card">
+                    <div class="icon">💻</div>
+                    <h3>Computer Science</h3>
+                    <p>Focusing on AI, Cybersecurity, and Software Engineering.</p>
+                    <a href="file:///C:/Users/admin/Desktop/clg.web/CSDP.HTML">Learn More &rarr;</a>
+                </div>
+                <div class="dept-card">
+                    <div class="icon">⚖️</div>
+                    <h3>Physics</h3>
+                    <p>Preparing advocates for global justice and corporate ethics.</p>
+                    <a href="file:///C:/Users/admin/Desktop/clg.web/PhyDP.html">Learn More &rarr;</a>
+                </div>
+                <div class="dept-card">
+                    <div class="icon">🎨</div>
+                    <h3>Chemistry</h3>
+                    <p>Nurturing creativity in digital media, painting, and design.</p>
+                    <a href="file:///C:/Users/admin/Desktop/clg.web/CheDP.html">Learn More &rarr;</a>
+                </div>
+                <div class="dept-card">
+                    <div class="icon">🔬</div>
+                    <h3>Mathematics</h3>
+                    <p>Research-driven programs in Biology, Chemistry, and Physics.</p>
+                    <a href="#">Learn More &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>your Education our Commitment</p>
+    </footer>
+
+</body>
+</html>
